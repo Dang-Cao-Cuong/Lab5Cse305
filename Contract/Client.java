@@ -11,7 +11,7 @@ public class Client {
 
     
     public static void main(String[] args) {
-        Client client = new Client();
+        DocumentClient client = new DocumentClient();
 
      
         LongTermContract builderL = new LongTermContract();
