@@ -27,4 +27,19 @@ public class MidPriorityConcrete implements RequestProduct {
         setExpire();
         System.out.println("Request accept, estimated completion date is " + expireDay);
     }
+
+    @Override
+    public String getPriority() {
+        return priority;
+    }
+
+    @Override
+    public String getStatus() {
+        return status;
+    }
+
+    @Override
+    public String getExpireDay() {
+        return expireDay;
+    }
 }

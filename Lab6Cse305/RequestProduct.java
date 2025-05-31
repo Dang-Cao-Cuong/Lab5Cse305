@@ -3,4 +3,8 @@ public interface RequestProduct {
     void setStatus();
     void setExpire();
     void processRequest();
+
+    String getPriority();
+    String getStatus();
+    String getExpireDay();
 }

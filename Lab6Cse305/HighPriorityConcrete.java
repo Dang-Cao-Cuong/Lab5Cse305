@@ -27,4 +27,19 @@ public class HighPriorityConcrete implements RequestProduct {
         setExpire();
         System.out.println("Emergency request, our Administer will contact you immediately !");
     }
+
+    @Override
+    public String getPriority() {
+        return priority;
+    }
+
+    @Override
+    public String getStatus() {
+        return status;
+    }
+
+    @Override
+    public String getExpireDay() {
+        return expireDay;
+    }
 }
